@@ -1,0 +1,6 @@
+framework module Pods_RacDemo_Tests {
+  umbrella header "Pods-RacDemo_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

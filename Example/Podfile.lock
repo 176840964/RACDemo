@@ -1,0 +1,23 @@
+PODS:
+  - RacDemo (0.1.0)
+  - ReactiveObjC (3.1.1)
+
+DEPENDENCIES:
+  - RacDemo (from `../`)
+  - ReactiveObjC (~> 3.1.1)
+
+SPEC REPOS:
+  trunk:
+    - ReactiveObjC
+
+EXTERNAL SOURCES:
+  RacDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RacDemo: b1edb2dd1dd4920ff57ef9ad24b5a745d741f31b
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+
+PODFILE CHECKSUM: a8e0192d9f7028c6c0aa38d7b4bef35fd53c0d37
+
+COCOAPODS: 1.10.0

@@ -1,0 +1,6 @@
+framework module RacDemo {
+  umbrella header "RacDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

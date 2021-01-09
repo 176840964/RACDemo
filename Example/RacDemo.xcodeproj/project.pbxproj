@@ -21,6 +21,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		8221FAF725A97D560091B5CC /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8221FAF625A97D560091B5CC /* LoginViewController.m */; };
+		8221FAFC25A97FC80091B5CC /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8221FAFB25A97FC80091B5CC /* LoginViewModel.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9E3FB2C43520699533F3F172 /* Pods_RacDemo_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40FFF4B816B98FCE3587F784 /* Pods_RacDemo_Example.framework */; };
 		AC75C5710B46B7161E844CCB /* Pods_RacDemo_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CE696227AC7AC11933678CC /* Pods_RacDemo_Tests.framework */; };
@@ -37,9 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		21063977D45BB264BD3FE470 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		21063977D45BB264BD3FE470 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		40FFF4B816B98FCE3587F784 /* Pods_RacDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RacDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4431327187125FC3143C42C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4431327187125FC3143C42C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4FA89F827722C0E41EEE2269 /* Pods-RacDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RacDemo_Tests.release.xcconfig"; path = "Target Support Files/Pods-RacDemo_Tests/Pods-RacDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* RacDemo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RacDemo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,9 +63,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8221FAF525A97D560091B5CC /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		8221FAF625A97D560091B5CC /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		8221FAFA25A97FC80091B5CC /* LoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		8221FAFB25A97FC80091B5CC /* LoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CE696227AC7AC11933678CC /* Pods_RacDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RacDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C01FC22B034EA0DED085F989 /* RacDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RacDemo.podspec; path = ../RacDemo.podspec; sourceTree = "<group>"; };
+		C01FC22B034EA0DED085F989 /* RacDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RacDemo.podspec; path = ../RacDemo.podspec; sourceTree = "<group>"; };
 		C1CBAECFEDF66AFD97D6508B /* Pods-RacDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RacDemo_Example.debug.xcconfig"; path = "Target Support Files/Pods-RacDemo_Example/Pods-RacDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D3B25AE2F4EA9A39C862D661 /* Pods-RacDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RacDemo_Example.release.xcconfig"; path = "Target Support Files/Pods-RacDemo_Example/Pods-RacDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E5AB02B7909024F8BDA22516 /* Pods-RacDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RacDemo_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RacDemo_Tests/Pods-RacDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +143,10 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* DZViewController.h */,
 				6003F5A6195388D20070C39A /* DZViewController.m */,
+				8221FAF525A97D560091B5CC /* LoginViewController.h */,
+				8221FAF625A97D560091B5CC /* LoginViewController.m */,
+				8221FAFA25A97FC80091B5CC /* LoginViewModel.h */,
+				8221FAFB25A97FC80091B5CC /* LoginViewModel.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +203,6 @@
 				E5AB02B7909024F8BDA22516 /* Pods-RacDemo_Tests.debug.xcconfig */,
 				4FA89F827722C0E41EEE2269 /* Pods-RacDemo_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,7 +236,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				C91E27CEF81119D8E86709A7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,6 +267,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -348,32 +357,16 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RacDemo_Example/Pods-RacDemo_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/RacDemo/RacDemo.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RacDemo.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RacDemo_Example/Pods-RacDemo_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C91E27CEF81119D8E86709A7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RacDemo_Tests/Pods-RacDemo_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RacDemo_Tests/Pods-RacDemo_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -383,8 +376,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8221FAF725A97D560091B5CC /* LoginViewController.m in Sources */,
 				6003F59E195388D20070C39A /* DZAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* DZViewController.m in Sources */,
+				8221FAFC25A97FC80091B5CC /* LoginViewModel.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +511,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RacDemo/RacDemo-Prefix.pch";
 				INFOPLIST_FILE = "RacDemo/RacDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactiveObjC\"",
+				);
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -532,6 +531,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RacDemo/RacDemo-Prefix.pch";
 				INFOPLIST_FILE = "RacDemo/RacDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactiveObjC\"",
+				);
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
